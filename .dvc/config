@@ -1,0 +1,5 @@
+[core]
+    remote = mydrive
+['remote "mydrive"']
+    url = gdrive://1BFW3-jYEal6Nxzj4Hz2nZho3DA3JzjVL?usp=sharing
+
