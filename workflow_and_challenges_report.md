@@ -1,23 +1,24 @@
 # Workflow and Challenges Report
 
-## Project Overview:
-Our project aims to automate the data extraction, transformation, and storage process using Apache Airflow and Data Version Control (DVC). This report provides an overview of the project workflow and highlights the challenges encountered during implementation.
+## Project Overview
+This project aims to automate the data extraction, transformation, and storage process using Apache Airflow and Data Version Control (DVC). This README.md file provides a comprehensive overview of the project workflow and discusses the challenges encountered during the implementation phase.
 
-## Workflow Description:
+## Workflow Overview
 1. **Data Extraction:**
-   - Utilized web scraping techniques to extract data from websites.
-   - Extracted links, titles, and descriptions from the landing pages of dawn.com and BBC.com.
+   - Employed web scraping methodologies to extract data from various websites.
+   - Specifically targeted dawn.com and BBC.com landing pages to extract links, titles, and descriptions.
 
 2. **Data Transformation:**
-   - Preprocessed the extracted data to clean and format it appropriately for further analysis.
-   - Implemented text normalization techniques to standardize the data format.
+   - Conducted preprocessing of the extracted data to ensure cleanliness and appropriate formatting.
+   - Implemented text normalization techniques to standardize the data structure.
 
 3. **Data Storage and Version Control:**
-   - Stored the processed data on Google Drive.
-   - Implemented Data Version Control (DVC) to track versions of the data and ensure reproducibility.
+   - Stored the processed data securely on Google Drive.
+   - Incorporated Data Version Control (DVC) to manage and track versions of the data for reproducibility.
 
-## Challenges Encountered:
-- Technical issues with setting up Airflow and DVC integration.
-- Data inconsistencies and formatting challenges during preprocessing.
-- Authentication issues with GitHub integration for DVC.
-- Robust solutions were implemented to address these challenges and ensure the successful execution of the data pipeline.
+## Challenges Faced
+- **Technical Setup:** Encountered difficulties in integrating Airflow with DVC.
+- **Data Inconsistencies:** Dealt with inconsistencies and formatting issues during the preprocessing stage.
+- **Authentication Problems:** Faced authentication challenges while integrating DVC with GitHub.
+  
+To overcome these hurdles, robust solutions were devised and implemented, ensuring the smooth execution of the data pipeline.

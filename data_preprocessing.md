@@ -1,20 +1,20 @@
 # Data Preprocessing Steps
 
-## Introduction:
-Data preprocessing is an essential step in any data analysis or machine learning project. In this document, we outline the steps involved in preprocessing the data for our project.
+## Introduction
+Data preprocessing is a fundamental phase in any data analysis or machine learning endeavor. This document delineates the procedural steps involved in preparing our project's data.
 
-## Steps:
+## Steps
 1. **Cleaning and Formatting:**
-   - We cleaned and formatted the text data extracted from websites to remove any noise or irrelevant information.
-   - Special characters, extra whitespaces, and other inconsistencies were removed to ensure clean data.
+   - The text data extracted from websites underwent meticulous cleaning and formatting to eliminate noise and extraneous information.
+   - Special characters, excess whitespaces, and other irregularities were systematically removed to ensure data purity.
 
 2. **Text Normalization:**
-   - Text normalization techniques, such as converting text to lowercase, were applied to ensure consistency in the data.
+   - Techniques for text normalization, such as converting text to lowercase, were applied to promote uniformity within the dataset.
 
-## Techniques Used:
-- We utilized Python's regular expressions (regex) library for cleaning and formatting text data.
-- Text normalization was performed using simple string manipulation techniques.
+## Techniques Utilized
+- Cleaning and formatting of text data were executed leveraging Python's regex library.
+- Text normalization was facilitated through straightforward string manipulation techniques.
 
-## Challenges Faced:
-- One challenge we encountered was handling inconsistent formatting across different sources of data.
-- To address this challenge, we implemented robust cleaning and normalization techniques to standardize the data format.
+## Challenges Encountered
+- An obstacle we faced involved managing inconsistent data formatting across disparate sources.
+- To surmount this challenge, we implemented robust cleaning and normalization methodologies to standardize the data structure.
